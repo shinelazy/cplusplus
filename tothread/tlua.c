@@ -17,8 +17,6 @@
 #include <lauxlib.h>
 #include <lualib.h>
 
-int a = 1;
-
 double f(lua_State *L, double x, double y)
 {
         double z;
